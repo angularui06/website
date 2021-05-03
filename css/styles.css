@@ -236,9 +236,6 @@ body {
 .navbar-dark .navbar-nav .nav-link.active {
   background-color: #02bfa0 !important;
   border-radius: 5px;
-  text-decoration: line-through;
-  text-decoration-color: #ffa500 !important;
-  text-decoration-thickness: 3px;
 }
 
 /* Home */
