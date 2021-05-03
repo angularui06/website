@@ -249,8 +249,12 @@ body {
   justify-content: center;
   margin-top: 48px;
   height: 100%;
-  background-size: cover;
   background-image: url("../images/bg.jpeg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .content h4 {
