@@ -377,6 +377,9 @@ footer p {
 }
 
 @media (max-width: 576px) {
+  #home {
+    background-image: url("../images/bg-mobile.jpeg");
+  }
   .content h1 {
     font-size: 6em;
   }
