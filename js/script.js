@@ -11,11 +11,31 @@ $(document).ready(function () {
     })
     .scroll();
 
-    $('.navbar-collapse a').click(function(){
-      $(".navbar-collapse").collapse('hide');
+  $('.navbar-collapse a').click(function () {
+    $(".navbar-collapse").collapse('hide');
   });
+
+  const btn = $('#scroll-to-top');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+
+  $('img').bind('contextmenu', function (e) {
+    return false;
+  });
+
 });
 
-$(window).scroll(function(){
-	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+$(window).scroll(function () {
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
