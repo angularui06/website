@@ -267,7 +267,7 @@ body {
   font-size: 8em;
   text-transform: uppercase;
   text-align: center;
-  background-image: url(../images/textbg.gif);
+  background-image: url(../images/textbg-cp.gif);
   background-size: cover;
   color: transparent;
   background-clip: text;
@@ -301,6 +301,10 @@ body {
 #about p {
   line-height: 2.2em;
   text-align: justify;
+}
+
+.align-center {
+  align-items: center;
 }
 
 /* Portfolio */

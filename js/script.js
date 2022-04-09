@@ -33,6 +33,8 @@ $(document).ready(function () {
   $('img').bind('contextmenu', function (e) {
     return false;
   });
+  const fullYear = new Date()?.getFullYear()
+  $('#m-text').text(`©${fullYear}, Mellontas - Passion Transcends Technology`)
 
 });
 
