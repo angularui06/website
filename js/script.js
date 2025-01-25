@@ -34,7 +34,7 @@ $(document).ready(function () {
     return false;
   });
   const fullYear = new Date()?.getFullYear()
-  $('#m-text').text(`©${fullYear}, Mellontas - Passion Transcends Technology`)
+  $('#m-text').text(`©${fullYear}, Arun Kumar - Code that creates real impact`)
 
 });
 
